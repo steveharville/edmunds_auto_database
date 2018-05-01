@@ -23,7 +23,7 @@ cr.execute("""merge into tco t
 cr.execute("""select style_id from tco where  tco = 999999999 """)
 style_tup=cr.fetchall()
 v_api='https://api.edmunds.com/v1/api/tco/'
-a_key='r3crmsprc92pcyhnc6jkuqhe'
+a_key='TopSecret'
 for style in style_tup:
     style_id=str(style[0])
     tco=999999999
