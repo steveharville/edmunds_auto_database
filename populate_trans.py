@@ -16,7 +16,7 @@ print 'Cursor status : ' + str(cr)
 cr.execute("""select unique trans_id from styles""")
 transmission_tup=cr.fetchall()
 v_api='https://api.edmunds.com/api/vehicle/v2/'
-a_key='r3crmsprc92pcyhnc6jkuqhe'
+a_key='TopSecret'
 for transmission in transmission_tup:
     trans_id=transmission[0]
     print trans_id
