@@ -1,2 +1,2 @@
 # edmunds_auto_database
-collect Edmunds auto info into Oracle database
+Collect Edmunds auto info into Oracle database to support car shopping analyses.
