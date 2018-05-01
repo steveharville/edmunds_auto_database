@@ -16,7 +16,7 @@ print 'Cursor status : ' + str(cr)
 cr.execute("""select style_id from styles minus select style_id from interiors""")
 style_tup=cr.fetchall()
 v_api='https://api.edmunds.com/api/vehicle/v2/'
-a_key='r3crmsprc92pcyhnc6jkuqhe'
+a_key='TopSecret'
 for style in style_tup:
     style_id=style[0]
     print style_id
