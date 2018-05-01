@@ -1,4 +1,5 @@
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
+# copyright 2016 Steve Harville
 import cx_Oracle
 import os
 import json
