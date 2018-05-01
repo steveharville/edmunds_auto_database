@@ -1,3 +1,4 @@
+# copyright 2016 Steve Harville
 export LD_LIBRARY_PATH=/home/oracle/app/oracle/product/12.1.0/dbhome_1/lib/
 export ORACLE_HOME=/home/oracle/app/oracle/product/12.1.0/dbhome_1
 export NLS_LANG=.UTF8
