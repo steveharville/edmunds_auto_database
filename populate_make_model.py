@@ -11,7 +11,7 @@ cr=db.cursor()
 print 'Cursor status : ' + str(cr)
 myear="2017"
 v_api='https://api.edmunds.com/api/vehicle/v2/'
-a_key='r3crmsprc92pcyhnc6jkuqhe'
+a_key='TopSecret'
 makes_url=v_api + '/makes?state=new&year=' + myear + '&view=basic&fmt=json&api_key=' + a_key
 makes=json.load(urllib2.urlopen(makes_url))
 makecount=0
