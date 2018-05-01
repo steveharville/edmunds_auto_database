@@ -1,5 +1,5 @@
 -- Sample queries
-
+-- copyright 2016 Steve Harville
 select makes.nicename make, 
        year,
        models.nicename model,
