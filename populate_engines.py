@@ -18,7 +18,7 @@ cr.execute("""select unique engine_id from styles where engine_id > 0
               select engine_id from engines""")
 engine_tup=cr.fetchall()
 v_api='https://api.edmunds.com/api/vehicle/v2/'
-a_key='r3crmsprc92pcyhnc6jkuqhe'
+a_key='TopSecret'
 for engine in engine_tup:
     engine_id=engine[0]
     print engine_id
