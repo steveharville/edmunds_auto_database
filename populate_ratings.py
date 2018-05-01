@@ -24,7 +24,7 @@ db.commit()
 cr.execute("""select style_id from rating_top where grade='Z' """)
 style_tup=cr.fetchall()
 v_api='https://api.edmunds.com/api/vehicle/v2/styles/'
-a_key='r3crmsprc92pcyhnc6jkuqhe'
+a_key='TopSecret'
 
 def insert_rating(style_id,title,grade,score,summary):
     "rating info insert into table"
